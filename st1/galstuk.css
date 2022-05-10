@@ -1,0 +1,548 @@
+body
+{
+	margin:0;
+	background-image: url(фон.png);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: top;
+}
+
+
+header{
+	background-color: white;
+}
+header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+
+
+header .block1{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 121px;
+
+}
+
+header .block2{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 121px;
+}
+
+
+header .article{
+  padding-right: 121px;
+  float: left;
+  overflow: hidden;
+}
+
+button{
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.article-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(233, 239, 255, 0.8);;
+    min-width: 160px;
+    box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+button {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-decoration: none;
+  background-color: white;
+  border: 0px;
+  text-transform: uppercase;
+}
+
+.article-content a {
+    float: none;
+    color: black;
+    padding: 7px 10px;
+    display: block;
+    text-align: left;
+    margin-top: 44px;
+    border-bottom: 1px solid black;
+    margin-left: 45px;
+    margin-right: 74px;
+    margin-bottom: 35px;
+}
+
+.article-content a:hover {
+
+}
+
+.article:hover .article-content {
+    display: block;
+	margin-left:-80px;
+}
+
+.next1{
+  text-decoration: none;
+}
+
+
+
+header .game{
+    padding-right: 99px;
+}
+
+
+
+header nav a{
+  color: #000;
+  font-family: 'Montserrat',normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  padding-top: 32px;
+  padding-bottom: 22px;
+  text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+header nav a:hover{
+  font-size: 28px;
+	text-decoration: none;
+  color: #000;
+	text-decoration: underline;
+}
+
+.main
+{
+	background:#ffffff;
+	width:992px;
+	height:5490px;
+    margin: auto;
+	border:3px solid #7D828B;
+}
+
+.text
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	line-height: 61px;
+	text-align: center;
+	color: #798BAE;
+	width: 547px;
+	height: 113px;
+	margin:auto;
+}
+
+.tetx2
+{
+	width: 882px;
+	height: 38px;
+	left: 277px;
+	top: 298px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: #000000;
+	margin:auto;
+	margin-top:17px;
+}
+
+.text3
+{
+	width: 291px;
+	height: 43px;
+	left: 344px;
+	top: 365px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	line-height: 44px;
+	text-align: center;
+	color: #52668F;
+	margin-left:115px;
+}
+
+.text4
+{
+	width: 917px;
+	height: 111px;
+	left: 277px;
+	top: 437px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 37px;
+	color: #000000;
+	margin-left:48px;
+	margin-top:29px;
+}
+
+.type
+{
+	width: 592px;
+	height: 514px;
+	margin:auto;
+	margin-top:47px;
+}
+
+.text_
+{
+	width: 236px;
+	height: 43px;
+	left: 344px;
+	top: 1134px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	line-height: 44px;
+	text-align: center;
+	color: #52668F;
+	margin-left:132px;
+	margin-top:25px;
+}
+
+.text_2
+{
+	width: 917px;
+	height: 157px;
+	left: 277px;
+	top: 1219px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 37px;
+	color: #000000;
+	margin-left:48px;
+	margin-top:42px;
+}
+
+.type_2
+{
+	width: 870px;
+	height: 480px;
+	margin:auto;
+	margin-top:17px;
+}
+
+.text_3
+{
+	width: 323px;
+	height: 43px;
+	left: 344px;
+	font-family: 'Montserrat', sans-serif;
+	top: 1908px;
+	font-size: 36px;
+	line-height: 44px;
+	text-align: center;
+	color: #52668F;
+	margin-left:115px;
+	margin-top:35px;
+}
+
+.text_4
+{
+	width: 917px;
+	height: 157px;
+	left: 277px;
+	top: 1988px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 37px;
+	color: #000000;
+	margin-left:48px;
+	margin-top:37px;
+}
+
+.type_3
+{
+	width: 864px;
+	height: 415px;
+	margin:auto;
+	margin-top:51px;
+}
+
+.text_5
+{
+	width: 190px;
+	height: 43px;
+	left: 344px;
+	top: 2650px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	line-height: 44px;
+	text-align: center;
+	color: #52668F;
+	margin-top:39px;
+	margin-left:115px;
+}
+
+.text_6
+{
+	width: 917px;
+	height: 264px;
+	left: 277px;
+	top: 2729px;
+	font-size: 30px;
+	line-height: 37px;
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	margin-top:36px;
+	margin-left:48px;
+}
+
+.type_4
+{
+	width: 907px;
+	height: 228px;
+	margin:auto;
+	margin-top:48px;
+}
+
+
+
+.text_7
+{
+	font-family: 'Montserrat', sans-serif;
+	margin-top:39px;
+	margin-left:115px;
+	width: 231px;
+	height: 43px;
+	left: 344px;
+	top: 3328px;
+	font-size: 36px;
+	line-height: 44px;
+	text-align: center;
+	color: #52668F;
+	margin-top:59px;
+	margin-left:115px;
+}
+
+.text_8
+{
+	font-family: 'Montserrat', sans-serif;
+	margin-top:38px;
+	margin-left:48px;
+	width: 917px;
+	height: 121px;
+	left: 277px;
+	top: 3409px;
+	font-size: 30px;
+	line-height: 37px;
+	color: #000000;
+}
+
+.type_5
+{
+	width: 872px;
+	height: 275px;
+	margin:auto;
+	margin-top:35px;
+}
+
+.text_9
+{
+	width: 366px;
+	height: 43px;
+	left: 342px;
+	top: 3922px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	line-height: 44px;
+	text-align: center;
+	color: #52668F;
+	margin-top:82px;
+	margin-left:113px;
+}
+
+.text_10
+{
+	width: 917px;
+	height: 187px;
+	left: 266px;
+	top: 4006px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 37px;
+	color: #000000;
+	margin-top:41px;
+	margin-left:37px;
+}
+
+.type_6
+{
+	width: 874px;
+	height: 382px;
+	margin:auto;
+	margin-top:44px;
+}
+
+.text_11
+{
+	width: 252px;
+	height: 43px;
+	left: 340px;
+	top: 4694px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	line-height: 44px;
+	text-align: center;
+	color: #52668F;
+	margin-top:75px;
+	margin-left:111px;
+}
+
+.text_12
+{
+	width: 917px;
+	height: 260px;
+	left: 266px;
+	top: 4774px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 37px;
+	color: #000000;
+	margin-top:37px;
+	margin-left:37px;
+}
+
+.type_7
+{
+	width: 776px;
+	height: 249px;
+	margin:auto;
+	margin-top:54px;
+}
+
+.text_13
+{
+	width: 797px;
+	height: 65px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 44px;
+	line-height: 54px;
+	color: #798BAE;
+	margin:auto;
+	margin-top:48px;
+}
+
+.button
+{
+	margin:auto;
+	margin-top:55px;
+	text-align:center;
+}
+
+.btm
+{
+	font-family: 'Montserrat', sans-serif;
+	border:3px solid #DFE8F9;
+	color:#000000;
+	font-size: 44px;
+	line-height: 54px;
+	text-decoration:none;
+	transition:background .1s linear, color .1s linear;
+	width: 493px;
+	height: 100px;
+	padding:20px 68px;
+}
+
+.btm:hover
+{
+	background-color:#DFE8F9;
+	color:#000000;
+}
+
+.type_8
+{
+	width: 95px;
+	height: 95px;
+	margin-left:687px;
+	margin-top:-25px;
+}
+
+.type_8 {
+	animation-name: 'anime';
+		/* имя кейфрейма для анимации */
+	animation-duration: 300ms;
+		/* длительность анимации */
+	animation-iteration-count: infinite;
+		/* количество повторений, в данном случае - бесконечно */
+	animation-direction: alternate;
+		/* проигрывать анимацию в прямом и в обратном порядке */
+	animation-timing-function: ease-in;
+		/* вычисление временных промежутков для анимации, в данном случае анимация ускоряется */
+}
+
+@keyframes 'anime' {
+	from {
+		transform: scale(1) rotate(0deg);
+	}
+	to {
+		transform: scale(1.1) rotate(0deg);
+	}
+}
+
+.type_8 {
+	-webkit-animation-name: 'anime';
+	-webkit-animation-duration: 300ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: ease-in;
+}
+@-webkit-keyframes 'anime' {
+	from {
+		-webkit-transform: scale(1) ;
+	}
+	to {
+		-webkit-transform: scale(1.1) ;
+	}
+}
+
+/*underline*/
+.footer
+{
+	background: #FFFFFF;
+	height: 207px;
+}
+
+.text__line1
+{
+	display:flex;
+	align-items:center;
+	justify-content:space-evenly;
+
+	padding-top:44px;
+	color: #6D6A6A;
+	font-size:  30px;
+}
+
+.text__line2
+{
+	display:flex;
+	align-items:center;
+	justify-content:space-evenly;
+
+	color: #000000;
+	margin-top:19px;
+	font-size: 36px;
+}
+
+.text_el {
+	width:  30vw;
+	text-align: center;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+#pic2
+{
+	margin:0 35.27px 0 35.27px;
+}
