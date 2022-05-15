@@ -101,10 +101,6 @@ h3{
 	background: gray;
 }
 
-header nav{
-  display: flex;
-  justify-content: space-between;
-}
 
 	#results{
 		text-align: center;
@@ -113,124 +109,117 @@ header nav{
 		font-family: 'Montserrat';
 		font-style: normal;
 	}
-
-header .block1{
-  display: flex;
-  justify-content: space-between;
-  margin-left: 121px;
-
-}
-
-header .block2{
-  display: flex;
-  justify-content: space-between;
-  margin-right: 121px;
-}
-
-
-header{
-	background-color: white;
-	justify-content: space-between;
-}
-
-header .article{
-  padding-right: 121px;
-  float: left;
-  overflow: hidden;
-
-}
-
-button{
-  text-decoration: none;
-  margin-top: 30px;
-}
-
-.article-content {
-    display: none;
-    position: absolute;
-    background-color: rgba(233, 239, 255, 0.8);;
-    min-width: 160px;
-    box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-
-}
-
-.article1{
-	color: black;
-}
-
-button {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 30px;
-  text-decoration: none;
-  background-color: white;
-  border: 0px;
-  text-transform: uppercase;
-	color: black;
-}
-
-.article-content a {
-    float: none;
-    color: black;
-    padding: 7px 10px;
-    display: block;
-    text-align: left;
-    margin-top: 44px;
-    border-bottom: 1px solid black;
-    margin-left: 45px;
-    margin-right: 74px;
-    margin-bottom: 35px;
-}
-
-.article-content a:hover {
-	text-decoration: underline;
-}
-
-.article:hover .article-content {
-    display: block;
-    margin-left: -80px;
-}
-
-.next1{
-  text-decoration: none;
-}
+	header{
+		background-color: white;
+	}
+	header nav{
+	  display: flex;
+	  justify-content: space-between;
+	  align-items:center;
+	}
 
 
 
-header .game{
-    padding-right: 99px;
-}
+	header .block1{
+	  display: flex;
+	  justify-content: space-between;
+	  margin-left: 121px;
+
+	}
+
+	header .block2{
+	  display: flex;
+	  justify-content: space-between;
+	  margin-right: 121px;
+	}
+
+
+	header .article{
+	  padding-right: 121px;
+	  float: left;
+	  overflow: hidden;
+	}
+
+	button{
+	  text-decoration: none;
+	  margin-top: 30px;
+	}
+
+	.article-content {
+	    display: none;
+	    position: absolute;
+	    background-color: rgba(233, 239, 255, 0.8);;
+	    min-width: 160px;
+	    box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.2);
+	    z-index: 1;
+	}
+
+
+	button {
+	  font-family: 'Montserrat';
+	  font-style: normal;
+	  font-weight: 400;
+	  font-size: 25px;
+	  line-height: 30px;
+	  text-decoration: none;
+	  background-color: white;
+	  border: 0px;
+	  text-transform: uppercase;
+	}
+
+	.article-content a {
+	    float: none;
+	    color: black;
+	    padding: 7px 10px;
+	    display: block;
+	    text-align: left;
+	    margin-top: 44px;
+	    border-bottom: 1px solid black;
+	    margin-left: 45px;
+	    margin-right: 74px;
+	    margin-bottom: 35px;
+	}
+
+	.article-content a:hover {
+
+	}
+
+	.article:hover .article-content {
+	    display: block;
+		margin-left:-80px;
+	}
+
+	.next1{
+	  text-decoration: none;
+	}
 
 
 
-header nav a{
-  color: #000;
-  font-family: 'Montserrat',normal;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 30px;
-  padding-top: 32px;
-  padding-bottom: 22px;
-  text-transform: uppercase;
-	text-decoration: none;
-}
-
-
-header nav a:hover{
-  font-size: 28px;
-  text-decoration: underline;
-  color: #000;
-}
+	header .game{
+	    padding-right: 99px;
+	}
 
 
 
+	header nav a{
+	  color: #000;
+	  font-family: 'Montserrat',normal;
+	  font-weight: 400;
+	  font-size: 25px;
+	  line-height: 30px;
+	  padding-top: 32px;
+	  padding-bottom: 22px;
+	  text-transform: uppercase;
+		text-decoration: none;
+	}
 
 
-
-
+	header nav a:hover{
+	  font-size: 28px;
+		text-decoration: none;
+	  color: #000;
+		text-decoration: underline;
+	}
 
 
 

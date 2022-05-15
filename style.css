@@ -10,9 +10,13 @@ body {
   overflow-x: hidden;
 }
 
+header{
+	background-color: white;
+}
 header nav{
   display: flex;
   justify-content: space-between;
+  align-items:center;
 }
 
 
@@ -29,12 +33,6 @@ header .block2{
   justify-content: space-between;
   margin-right: 121px;
 }
-
-
-
-
-
-
 
 
 header .article{
@@ -89,7 +87,7 @@ button {
 
 .article:hover .article-content {
     display: block;
-    margin-left: -80px;
+	margin-left:-80px;
 }
 
 .next1{
@@ -113,16 +111,16 @@ header nav a{
   padding-top: 32px;
   padding-bottom: 22px;
   text-transform: uppercase;
+	text-decoration: none;
 }
 
 
 header nav a:hover{
   font-size: 28px;
-  text-decoration: underline;
+	text-decoration: none;
   color: #000;
+	text-decoration: underline;
 }
-
-
 section.photo{
   height: 920px;
   background-color: #DFE8F9;
@@ -216,6 +214,7 @@ section.article .round{
   color: #000000;
   padding-top: 3px;
 }
+
 
 
 
