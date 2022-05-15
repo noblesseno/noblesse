@@ -17,6 +17,7 @@ header{
 header nav{
   display: flex;
   justify-content: space-between;
+  align-items:center;
 }
 
 
@@ -33,12 +34,6 @@ header .block2{
   justify-content: space-between;
   margin-right: 121px;
 }
-
-
-
-
-
-
 
 
 header .article{
@@ -127,7 +122,6 @@ header nav a:hover{
   color: #000;
 	text-decoration: underline;
 }
-
 /* contacts */
 .contacts{
   width: 100%;
@@ -235,6 +229,7 @@ input[type=text], textarea {
     }
 
  .knopka-content {
+     font-family: 'Montserrat';
      display: none;
      margin-left: 55px;
      position: absolute;
@@ -246,7 +241,7 @@ input[type=text], textarea {
  }
 
  .knopka-content a {
-
+     font-family: 'Montserrat';
      color: black;
      padding: 5px 10px;
      display: block;
@@ -281,7 +276,7 @@ input[type=text], textarea {
  #main {
        display: none;
        position: absolute;
-       top:34vh;
+       top:41vh;
        left:35vh;
        width: 25%;
        height: 32vh;
@@ -327,6 +322,7 @@ input[type=text], textarea {
 
 
 .sites{
+    font-family: 'Montserrat';
   width: 400px;
   height: 200px;
   display: flex;
