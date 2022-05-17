@@ -60,7 +60,7 @@ button{
 button {
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700px;
   font-size: 25px;
   line-height: 30px;
   text-decoration: none;
@@ -70,6 +70,7 @@ button {
 }
 
 .article-content a {
+  font-family: 'Montserrat',normal;
     float: none;
     color: black;
     padding: 7px 10px;
@@ -106,7 +107,7 @@ header .game{
 header nav a{
   color: #000;
   font-family: 'Montserrat',normal;
-  font-weight: 400;
+  font-weight: 1000;
   font-size: 25px;
   line-height: 30px;
   padding-top: 32px;
