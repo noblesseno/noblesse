@@ -82,6 +82,11 @@ h3{
   display: block;
 }
 
+.logotip{
+  margin-left: 240px;
+}
+
+
 #submit{
   font-family: 'Montserrat';
   font-style: normal;
