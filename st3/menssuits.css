@@ -18,7 +18,9 @@ header nav{
   align-items:center;
 }
 
-
+.logotip{
+  margin-left: 240px;
+}
 
 header .block1{
   display: flex;
