@@ -14,12 +14,18 @@ body {
   margin-left: 240px;
 }
 
+header{
+	background-color: white;
+}
 header nav{
   display: flex;
   justify-content: space-between;
+  align-items:center;
 }
 
-
+.logotip{
+  margin-left: 240px;
+}
 
 header .block1{
   display: flex;
@@ -33,12 +39,6 @@ header .block2{
   justify-content: space-between;
   margin-right: 121px;
 }
-
-
-
-
-
-
 
 
 header .article{
@@ -93,7 +93,7 @@ button {
 
 .article:hover .article-content {
     display: block;
-    margin-left: -80px;
+	margin-left:-80px;
 }
 
 .next1{
@@ -117,12 +117,15 @@ header nav a{
   padding-top: 32px;
   padding-bottom: 22px;
   text-transform: uppercase;
+	text-decoration: none;
 }
 
 
 header nav a:hover{
-  text-decoration: underline;
+  font-size: 28px;
+	text-decoration: none;
   color: #000;
+	text-decoration: underline;
 }
 
 
